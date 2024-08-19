@@ -1,0 +1,10 @@
+C:\Users\support\source\repos\Catcher\obj\Debug\Catcher.csproj.AssemblyReference.cache
+C:\Users\support\source\repos\Catcher\obj\Debug\Catcher.Form1.resources
+C:\Users\support\source\repos\Catcher\obj\Debug\Catcher.Properties.Resources.resources
+C:\Users\support\source\repos\Catcher\obj\Debug\Catcher.csproj.GenerateResource.cache
+C:\Users\support\source\repos\Catcher\obj\Debug\Catcher.csproj.CoreCompileInputs.cache
+C:\Users\support\source\repos\Catcher\bin\Debug\Catcher.exe.config
+C:\Users\support\source\repos\Catcher\bin\Debug\Catcher.exe
+C:\Users\support\source\repos\Catcher\bin\Debug\Catcher.pdb
+C:\Users\support\source\repos\Catcher\obj\Debug\Catcher.exe
+C:\Users\support\source\repos\Catcher\obj\Debug\Catcher.pdb
