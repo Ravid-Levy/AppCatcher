@@ -33,7 +33,6 @@ namespace Catcher
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.btnListWindows = new System.Windows.Forms.Button();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolStrip1.SuspendLayout();
@@ -47,16 +46,6 @@ namespace Catcher
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(800, 425);
             this.tabControl1.TabIndex = 0;
-            // 
-            // btnListWindows
-            // 
-            this.btnListWindows.Location = new System.Drawing.Point(153, 0);
-            this.btnListWindows.Name = "btnListWindows";
-            this.btnListWindows.Size = new System.Drawing.Size(98, 23);
-            this.btnListWindows.TabIndex = 1;
-            this.btnListWindows.Text = "Choose Window";
-            this.btnListWindows.UseVisualStyleBackColor = true;
-            this.btnListWindows.Click += new System.EventHandler(this.btnListWindows_Click_1);
             // 
             // toolStrip1
             // 
@@ -74,8 +63,8 @@ namespace Catcher
             this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
             this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(98, 22);
-            this.toolStripButton1.Text = "Choose Window";
+            this.toolStripButton1.Size = new System.Drawing.Size(81, 22);
+            this.toolStripButton1.Text = "List Windows";
             this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
             // Form1
@@ -83,7 +72,6 @@ namespace Catcher
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnListWindows);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.toolStrip1);
             this.Name = "Form1";
@@ -103,7 +91,6 @@ namespace Catcher
         #endregion
 
         private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.Button btnListWindows;
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripButton toolStripButton1;
     }

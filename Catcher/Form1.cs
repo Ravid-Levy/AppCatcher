@@ -61,8 +61,6 @@ namespace Catcher
 
             _hookProc = new HookProc(HookCallback);
             _hookID = SetHook(_hookProc);
-
-            btnListWindows.Click += toolStripButton1_Click;
             tabControl1.AllowDrop = true;
             tabControl1.DrawMode = TabDrawMode.OwnerDrawFixed;
             tabControl1.DrawItem += TabControl1_DrawItem;
@@ -281,10 +279,6 @@ namespace Catcher
             public IntPtr hwnd;
         }
 
-        private void btnListWindows_Click_1(object sender, EventArgs e)
-        {
-
-        }
 
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
